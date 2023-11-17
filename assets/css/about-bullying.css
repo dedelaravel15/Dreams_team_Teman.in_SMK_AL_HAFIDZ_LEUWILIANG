@@ -78,7 +78,7 @@
     cursor: pointer;
     border: 1px solid #aaa;
   }
-  .online-consultation {
+  .konsultasi {
     background-color: #2F59A7;
   }
   a {
@@ -139,8 +139,16 @@ body {
   }
 
   @media screen and (max-width: 768px) {
-  .online-consultation img {
+  .konsultasi{
       width: 450px;
       height: 450px;
   }
 }
+   /* Tampilan tablet */
+   @media screen and (max-width: 768px) {
+    .konsultasi img {
+      width: 450px;
+      height: 450px;
+      border-radius: 0;
+    }
+   }

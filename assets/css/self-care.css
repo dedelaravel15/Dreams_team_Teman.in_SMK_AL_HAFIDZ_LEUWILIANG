@@ -17,10 +17,10 @@ section {
 }
 
 .team-counselorr{
-    background-color: #ffffff;
+    background-color:  #ffffff;
     padding: 1em;
- box-shadow: 1px 1px 7px 0 #0076f0;
- border-radius: 50px;
+
+
  
 }
 
@@ -110,7 +110,7 @@ section {
         margin:10px;
         padding: 0;
         border-radius: 5px;
-        box-shadow: 1px 1px 7px 0 #2F59A7;
+        box-shadow: 1px 1px 7px 0 #656668;
         background-color: #fff;
         transition: all 0.3s ease-in;
     }
@@ -249,11 +249,17 @@ section {
     border-radius:40px;
     box-shadow: #0076f0;
   }
+  .online-consultation {
+    background-color: #2F59A7;
+  }
    /* Tampilan tablet */
    @media screen and (max-width: 768px) {
     .online-consultation img {
       width: 450px;
       height: 450px;
       border-radius: 0;
+    }
+    .tulisan-kecil {
+    display: none;
     }
    }

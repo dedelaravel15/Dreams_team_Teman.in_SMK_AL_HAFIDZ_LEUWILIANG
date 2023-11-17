@@ -20,6 +20,8 @@
     display: flex;
     align-items: center;
     padding-right: 10%;
+    justify-content: center;
+    text-align: center;
 }
 
 .container-right{
@@ -73,6 +75,8 @@
 
 .team-container{
     background-color: transparent;
+    display: flex;
+    flex-direction: column;
     padding: 50px;
  box-shadow: 1px 1px 7px 0 #2F59A7;
 }
@@ -121,6 +125,9 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin: 20px 0 0 0;
+}
+.team-container {
+    display: flex;
 }
 
 .team-position{
