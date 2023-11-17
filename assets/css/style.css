@@ -193,16 +193,16 @@ footer p a {
             font-size: 12px;
         }
         .container .title h1{
-            font-size: 30px;
+          font-size: 20px;
             text-align: center;
-            margin-left: 36px;
+            margin-left: 70px;
         }
         .container img{
             display: none;
         }
         .container .title span{
             position: absolute;
-            top:200px;
+            top:160px;
         }
         .container .title button{
             margin-left: 80px;
@@ -215,10 +215,11 @@ footer p a {
         .jumbroton h1{
             margin-left: 30px; 
             position: absolute;
-            top: 300px;    
-            left: 170px; 
+            top: 280px;    
+            left: 169px; 
             margin-top:10px;
             margin-bottom:100px ;
+            font-size: 25px;
         }
         .jumbroton .logo{
           margin: 10px;
