@@ -227,7 +227,6 @@ footer p a {
        .jumbroton ul{
           flex-direction: column;
           display: grid;
-          gap:-10;
           margin-left:5px
        }   
        .jumbroton ul li{
