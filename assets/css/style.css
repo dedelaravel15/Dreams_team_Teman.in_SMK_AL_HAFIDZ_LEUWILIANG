@@ -193,7 +193,7 @@ footer p a {
             font-size: 12px;
         }
         .container .title h1{
-          font-size: 20px;
+          font-size: 15px;
             text-align: center;
             margin-left: 70px;
         }
@@ -202,11 +202,12 @@ footer p a {
         }
         .container .title span{
             position: absolute;
+            font-size:12px;
             top:160px;
         }
         .container .title button{
             margin-left: 80px;
-            margin-top: 20px;
+            margin-top: 50px;
             margin-bottom: 50px;
         }
         .container .title button:hover{
