@@ -206,7 +206,7 @@ footer p a {
             top:160px;
         }
         .container .title button{
-            margin-left: 80px;
+            margin-left: 40px;
             margin-top: 50px;
             margin-bottom: 50px;
         }
@@ -214,10 +214,9 @@ footer p a {
           background-color: blue;
       }
         .jumbroton h1{
-            margin-left: 30px; 
             position: absolute;
             top: 280px;    
-            left: 169px; 
+            left: 159px; 
             margin-top:10px;
             margin-bottom:100px ;
             font-size: 25px;
@@ -229,7 +228,7 @@ footer p a {
           flex-direction: column;
           display: grid;
           gap:-10;
-          margin-left:50px
+          margin-left:5px
        }   
        .jumbroton ul li{
         margin-bottom:5px;  
