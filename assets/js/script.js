@@ -15,3 +15,9 @@ faqs.forEach((faq) => {
         faq.classList.toggle("active");
     });
 });
+
+const about = document.getElementById("about");
+
+about.addEventListener("click", function(){
+    document.location.href = ""
+})
