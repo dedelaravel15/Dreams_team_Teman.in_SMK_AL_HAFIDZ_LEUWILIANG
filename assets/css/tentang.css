@@ -37,12 +37,8 @@
     margin-left: 20px;
     box-shadow: 1px 1px 7px 0 #2F59A7;
 }
-.container-video video {
-    border-radius: 50px;
-    margin-left: 20px;
-    box-shadow: 1px 1px 7px 0 #2F59A7;
-    display: flex;
-}
+
+
 
 .text{
     color: #000000;
@@ -74,11 +70,11 @@
 }
 
 .team-container{
-    background-color: transparent;
+    background-color: #eeeeee;
     display: flex;
     flex-direction: column;
     padding: 50px;
- box-shadow: 1px 1px 7px 0 #2F59A7;
+ box-shadow: 1px 1px 7px 0 #ffffff;
 }
 
 .card-group{

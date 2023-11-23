@@ -3,11 +3,15 @@
 .container{
     display: flex;
     justify-content: space-between;
-    margin: 0px 110px;
+    ;
 }
 .container h1{
     font-size:70px;
     color: #2F59A7;
+}
+.container img {
+    width: 570px;
+    height: 600px;
 }
 .container span{
     position: absolute;
@@ -94,3 +98,117 @@
     top: 720px;
     left: 980px;
 }
+section {
+    background-color: #eee;
+    
+}
+.content-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1px;
+    margin: 80px 1px;
+
+}
+
+.content{
+    width: 280px;
+    margin:10px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.content:hover{
+    box-shadow: 1px 1px 7px 0 grey;
+    background-color: #2F59A7;
+}
+
+.content:hover .content-body h3, .content:hover .content-body p, .content:hover .content-socmed i{
+    color: #eee;
+}
+
+.content-img img{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: -30px auto 0px auto;
+}
+
+.content-body{
+    text-align: center;
+    padding: 0;
+}
+
+.card-body h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+
+.team-position{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 10px;
+    color: #000000;}
+
+    /* Tampilan smartphone */
+@media(max-width: 576px) {
+        html {
+            font-size: 12px;
+    
+        }
+        .container .title h1{
+            font-size: 30px;
+            text-align: center;
+            margin-left: 36px;
+        }
+        .container {
+            margin: 0px 110px;
+        }
+        .container img{
+            display: none;
+        }
+        .container .title span{
+            position: absolute;
+            top:200px;
+        }
+        .container .title button{
+            margin-left: 80px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        .container .title button:hover{
+          background-color: blue;
+      }
+        .jumbroton h1{
+            margin-left: 30px; 
+            position: absolute;
+            top: 300px;    
+            left: 170px; 
+            margin-top:10px;
+            margin-bottom:100px ;
+        }
+        .jumbroton .logo{
+          margin: 10px;
+        }
+        .title p {
+        text-align: center;
+        margin-left: 20px;
+        }
+       .jumbroton ul{
+          flex-direction: column;
+          display: grid;
+          gap:-10;
+          margin-left:50px
+       }   
+       .jumbroton ul li{
+        margin-bottom:5px;  
+      }     
+      
+        
+  }
+
+

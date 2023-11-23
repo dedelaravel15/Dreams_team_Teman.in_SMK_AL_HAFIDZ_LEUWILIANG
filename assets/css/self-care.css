@@ -18,7 +18,11 @@ section {
 
 .team-counselorr{
     background-color:  #ffffff;
-    padding: 1em;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin: 80px 1px;
 
 
  
@@ -34,10 +38,10 @@ section {
 
 .card{
     width: 285px;
-    margin:15px;
+    margin:20px;
     padding: 0;
     border-radius: 5px;
-    box-shadow: 1px 1px 7px  #2F59A7;
+    box-shadow: 1px 1px 7px  #ffffff;
     background-color: #fff;
     transition: all 0.3s ease-in;
     border-radius: 50px;
