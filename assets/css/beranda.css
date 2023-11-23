@@ -25,8 +25,7 @@
     transition: ease-in 0.2s;
 }
 .container .btn-about:hover{
-    background-color: #38DDDF;
-    background-color:;
+    background-color: hsl(181, 72%, 55%);
     transition: ease-out 0.2s;
     color: #ffffff;
 }
