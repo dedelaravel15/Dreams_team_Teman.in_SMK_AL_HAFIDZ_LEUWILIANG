@@ -22,11 +22,13 @@
     width: 100px;
     color:white;
     cursor:pointer;
+    transition: ease-in 0.2s;
 }
 .container .btn-about:hover{
-    background-color:rgb(129, 142, 255);
-    transition: ease-in 0.4s;
-    color: #000000;
+    background-color: #38DDDF;
+    background-color:;
+    transition: ease-out 0.2s;
+    color: #ffffff;
 }
 .jumbroton h2{
     text-align: center;
