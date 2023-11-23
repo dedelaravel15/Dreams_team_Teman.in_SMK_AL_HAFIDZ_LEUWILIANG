@@ -116,9 +116,9 @@ section {
             margin-bottom: 50px;
         }
         .container .title button:hover{
-            background-color:rgb(129, 142, 255);
-    transition: ease-in 0.4s;
-    color: #000000;
+            background-color: hsl(181, 72%, 55%);
+            transition: ease-out 0.2s;
+            color: #ffffff;
       }
         .jumbroton h1{
             margin-left: 30px; 
