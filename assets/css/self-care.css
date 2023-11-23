@@ -85,7 +85,7 @@ section {
     font-size: 1.3rem;
     font-weight: 200;
     margin: 0;
-    color: #7a7a7a;
+    color: #000000;
 }
 
 .text-card{
@@ -150,8 +150,8 @@ section {
     .team-position{
         font-size: 1.3rem;
         font-weight: 200;
-        margin: 0;
-        color: #7a7a7a;
+        margin: 10px;
+        color: #000000;
     }
    
 /*cerita*/
